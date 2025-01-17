@@ -17,7 +17,7 @@ public class WorkingDateAdapter {
             @Override
             public int daysWorking() {
                 String days = request.getParameter("days");
-                return 0;
+                return Integer.parseInt(days);
             }
         };
     }
